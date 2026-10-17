@@ -37,6 +37,6 @@ print(f"Минимальный элемент: {min_val} (последнее в�
 sum_result = sum_between_negatives(arr)
 print(f"Сумма элементов между первым и последним отрицательными числами: {sum_result}")
 
-test_arr = [0, 4, 1, 1, 2]
+test_arr = [0, 4, 1, 0, 2]
 val, idx = find_last_min_element_index(test_arr)
-print(f"\nТест [0, 4, 1, 1, 2]: Минимум {val}, индекс {idx} (должен быть 3)")
+print(f"\nТест [0, 4, 1, 0, 2]: Минимум {val}, индекс {idx} (должен быть 3)")
